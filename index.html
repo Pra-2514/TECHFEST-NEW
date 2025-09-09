@@ -1,0 +1,113 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Techfest IIT Bombay — 2025</title>
+
+  <style>
+    * { margin:0; padding:0; box-sizing:border-box; }
+    body {
+      font-family: "Segoe UI", Roboto, sans-serif;
+      color: #fff;
+      height: 100vh;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      text-align: center;
+      background: url("https://i.ibb.co/4j3cc2w/iit-bombay-bg.jpg") no-repeat center center;
+      background-size: cover;
+      position: relative;
+    }
+
+    /* Dark overlay for readability */
+    body::before {
+      content:"";
+      position:absolute;
+      top:0; left:0; right:0; bottom:0;
+      background: rgba(0,0,0,0.55);
+      z-index:0;
+    }
+
+    .container {
+      position: relative;
+      z-index: 1;
+      max-width: 900px;
+      padding: 40px;
+      animation: fadeInUp 1.2s ease;
+    }
+
+    h1 {
+      font-size: 38px;
+      margin-bottom: 15px;
+      line-height: 1.3;
+      font-weight: 700;
+    }
+
+    h2 {
+      font-size: 22px;
+      font-weight: 500;
+      margin-bottom: 25px;
+      color: #f0f0f0;
+    }
+
+    p {
+      font-size: 18px;
+      margin: 10px 0;
+    }
+
+    .btn {
+      display:inline-block;
+      margin: 12px 10px 0;
+      padding: 14px 26px;
+      border-radius: 10px;
+      font-size:17px;
+      font-weight:600;
+      text-decoration:none;
+      color:#fff;
+      background:#0b63d1;
+      box-shadow:0 4px 14px rgba(11,99,209,0.4);
+      transition:all 0.3s ease;
+    }
+    .btn:hover {
+      transform:translateY(-3px);
+      box-shadow:0 6px 20px rgba(11,99,209,0.6);
+    }
+    .btn.secondary {
+      background:#ff4444;
+      box-shadow:0 4px 14px rgba(255,68,68,0.4);
+    }
+    .btn.secondary:hover {
+      box-shadow:0 6px 20px rgba(255,68,68,0.6);
+    }
+
+    .tags {
+      margin-top:20px;
+      font-size:16px;
+      font-weight:bold;
+      color:#eaeaea;
+      opacity:0.9;
+    }
+
+    @keyframes fadeInUp {
+      from { opacity:0; transform: translateY(30px);}
+      to { opacity:1; transform: translateY(0);}
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <h1>✨ Welcome to Techfest 2025 ✨</h1>
+    <h2>Asia’s Largest Science & Technology Festival — IIT Bombay 🚀</h2>
+
+    <p><strong>📅 Dates:</strong> 22–24 Dec 2025</p>
+    <p><strong>🎯 Competitions • Workshops • Exhibitions • Pro Shows</strong></p>
+    <p>🌍 Be part of innovations that shape the future.</p>
+
+    <a href="https://ca.techfest.org/" class="btn" target="_blank">🔗 Register Now</a>
+    <a href="https://www.youtube.com/watch?v=_aCQu35NA7M" class="btn secondary" target="_blank">▶ Watch Teaser</a>
+
+    <div class="tags">#TechfestIITBombay &nbsp; #InnovationForFuture</div>
+  </div>
+</body>
+</html>
